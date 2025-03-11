@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\FE">
+      <UniqueIdentifier>{fae03d73-4fa3-4fff-acc7-3271038fed50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BE">
+      <UniqueIdentifier>{d334dc3e-cd50-4399-bc20-4836c1813c12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FE">
+      <UniqueIdentifier>{d4c9c78d-69c5-4e7b-9910-548d4bfcac71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BE">
+      <UniqueIdentifier>{bea156bf-229f-419c-9808-fca2cc6b1871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems">
+      <UniqueIdentifier>{7f22001d-db5a-4a59-a470-d1d4131ffd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{b08ccb03-ea57-44bb-bb9c-9dc66b7e11a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
