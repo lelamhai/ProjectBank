@@ -31,18 +31,96 @@
     <Filter Include="Source Files\Systems">
       <UniqueIdentifier>{b08ccb03-ea57-44bb-bb9c-9dc66b7e11a7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\FE\UI">
+      <UniqueIdentifier>{84c75c89-dddf-4ae4-a32d-d7c7ef4e4214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FE\UI">
+      <UniqueIdentifier>{2723deba-9e9c-4fe7-8e18-b6f51b33d71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FE\Pages">
+      <UniqueIdentifier>{155c3274-c4d8-4dc2-809f-d99be1192773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FE\Pages">
+      <UniqueIdentifier>{e8516d43-89a3-477f-8c5d-85467b773de4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="config.cpp">
+    <ClCompile Include="configApp.cpp">
       <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="windows.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="inputField.cpp">
+      <Filter>Source Files\FE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>Source Files\FE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="basePage.cpp">
+      <Filter>Source Files\FE\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="pageSignIn.cpp">
+      <Filter>Source Files\FE\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="pageSignUp.cpp">
+      <Filter>Source Files\FE\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="page.cpp">
+      <Filter>Source Files\FE\Pages</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Config.h">
+    <ClInclude Include="configApp.h">
       <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="mycolor.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="mydraw.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="mykeyboard.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="mywindows.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="InputField.h">
+      <Filter>Header Files\FE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\FE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePage.h">
+      <Filter>Header Files\FE\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Page.h">
+      <Filter>Header Files\FE\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="PageSignIn.h">
+      <Filter>Header Files\FE\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="PageSignUp.h">
+      <Filter>Header Files\FE\Pages</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

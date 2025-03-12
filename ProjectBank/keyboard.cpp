@@ -1,7 +1,4 @@
 #include "mykeyboard.h"
-#include <conio.h>
-#include <windows.h>
-
 int keySpecial(int key)
 {
     if (_kbhit()) //true

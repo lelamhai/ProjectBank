@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\config.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\config.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -27,39 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "config.cpp",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\config.cpp",
-              "RelativeDocumentMoniker": "ProjectBank\\config.cpp",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\config.cpp",
-              "RelativeToolTip": "ProjectBank\\config.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-10T16:47:10.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Config.h",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\Config.h",
-              "RelativeDocumentMoniker": "ProjectBank\\Config.h",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\Config.h",
-              "RelativeToolTip": "ProjectBank\\Config.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-10T16:47:01.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\main.cpp",
               "RelativeDocumentMoniker": "ProjectBank\\main.cpp",
               "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\main.cpp",
               "RelativeToolTip": "ProjectBank\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-10T16:44:48.409Z"
+              "WhenOpened": "2025-03-11T15:36:18.746Z",
+              "EditorCaption": ""
             }
           ]
         }

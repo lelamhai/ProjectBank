@@ -1,3 +1,22 @@
-﻿  main.cpp
-C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\main.cpp(5,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  basePage.cpp
+  inputField.cpp
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\inputField.cpp(58,37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\inputField.cpp(177,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\inputField.cpp(312,20): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\inputField.cpp(341,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\inputField.cpp(376,22): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\inputField.cpp(403,22): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\inputField.cpp(432,22): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\inputField.cpp(461,22): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\inputField.cpp(57,6): warning C4101: 'count': unreferenced local variable
+  keyboard.cpp
+  main.cpp
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\main.cpp(4,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  configApp.cpp
+  page.cpp
+  pageSignIn.cpp
+  pageSignUp.cpp
+  text.cpp
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\text.cpp(29,23): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
   ProjectBank.vcxproj -> C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\x64\Debug\ProjectBank.exe

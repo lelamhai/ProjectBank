@@ -1,4 +1,6 @@
 #pragma once
+#include <conio.h>
+#include <windows.h>
 enum KeyState
 {
     // Common
