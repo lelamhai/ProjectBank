@@ -1,5 +1,6 @@
 #pragma once
 #include "PageSignIn.h"
+#include "PageSignUp.h"
 
 enum StatePage
 {

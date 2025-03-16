@@ -17,8 +17,3 @@ Singleton* Singleton::getInstance()
 	}
 	return instance;
 }
-
-void Singleton::print()
-{
-	cout << role;
-}

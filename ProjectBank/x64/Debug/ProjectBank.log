@@ -1,2 +1,6 @@
-﻿  pageSignIn.cpp
+﻿  main.cpp
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\main.cpp(5,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  page.cpp
+  pageSignUp.cpp
+  Generating Code...
   ProjectBank.vcxproj -> C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\x64\Debug\ProjectBank.exe
