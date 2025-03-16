@@ -22,10 +22,6 @@ enum KeyState
     NUM_3   = 51,
     NUM_4   = 52,
 
-    //Sex
-    ADD     = 43,
-    SUBTRACT= 45,
-
     // Arrow
     DOWN    = 80,
     RIGHT   = 77,

@@ -7,9 +7,7 @@ class Singleton
 private:
 	static Singleton* instance;
 public:
-	string role;
-	int moveMenu = 0;
-	bool isExecute = false;
+	string ID;
 	static Singleton* getInstance();
 	void print();
 	Singleton();
