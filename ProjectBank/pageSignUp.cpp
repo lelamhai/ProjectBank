@@ -11,7 +11,9 @@ PageSignUp::~PageSignUp()
 void PageSignUp::main()
 {
 	BasePage::setTitle("DANG KY");
+	BasePage::setSayHi("Chao Hai!");
 	BasePage::main();
+	BasePage::txtSayHi.display();
 	setUI();
 	handle();
 }

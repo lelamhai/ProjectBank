@@ -14,9 +14,13 @@ class BasePage
 {
 private:
 	string title = "TIEU DE";
+	string name = "Hi Ten!";
 	Text txtTitle;
+
 public:
+	Text txtSayHi;
 	void setTitle(string title);
+	void setSayHi(string name);
 	virtual void main();
 	void draw();
 	BasePage();

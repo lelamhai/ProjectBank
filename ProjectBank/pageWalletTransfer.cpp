@@ -12,7 +12,9 @@ PageWalletTransfer::~PageWalletTransfer()
 void PageWalletTransfer::main()
 {
 	BasePage::setTitle("GIAO DICH");
+	BasePage::setSayHi("Chao Hai!");
 	BasePage::main();
+	BasePage::txtSayHi.display();
 	setUI();
 	handle();
 }

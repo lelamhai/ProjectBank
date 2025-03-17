@@ -19,9 +19,17 @@ void BasePage::draw()
 	txtTitle.setPosition(25, 2);
 	txtTitle.setContent(title);
 	txtTitle.display();
+
+	txtSayHi.setPosition(45, 1);
+	txtSayHi.setContent(name);
 }
 
 void BasePage::setTitle(string text)
 {
 	this->title = text;
+}
+
+void BasePage::setSayHi(string name)
+{
+	this->name = name;
 }
