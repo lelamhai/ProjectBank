@@ -16,6 +16,7 @@ void Page::main()
 	PageSignIn* i;
 	PageSignUp* u;
 	PageCustomer* c;
+	PageStaff* s;
 	while (true)
 	{
 		switch (currentPage)
@@ -39,6 +40,13 @@ void Page::main()
 			c = new PageCustomer();
 			c->main();
 			delete c;
+			break;
+
+		case Page_Staff:
+			showCur(0);
+			s = new PageStaff();
+			s->main();
+			delete s;
 			break;
 
 		/*default:

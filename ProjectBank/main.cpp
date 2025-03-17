@@ -5,7 +5,7 @@ using namespace std;
 void main()
 {
 	Page* page = new Page();
-	page->setRunPage(Page_Customer);
+	page->setRunPage(Page_Staff);
 	page->main();
 	delete page;
 }
