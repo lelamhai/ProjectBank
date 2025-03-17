@@ -90,6 +90,9 @@
     <ClCompile Include="pageStaff.cpp">
       <Filter>Source Files\FE\Pages</Filter>
     </ClCompile>
+    <ClCompile Include="pageWalletTransfer.cpp">
+      <Filter>Source Files\FE\Pages</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="configApp.h">
@@ -132,6 +135,9 @@
       <Filter>Header Files\FE\Pages</Filter>
     </ClInclude>
     <ClInclude Include="PageStaff.h">
+      <Filter>Header Files\FE\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="PageWalletTransfer.h">
       <Filter>Header Files\FE\Pages</Filter>
     </ClInclude>
   </ItemGroup>

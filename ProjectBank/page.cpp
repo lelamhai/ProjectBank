@@ -17,6 +17,7 @@ void Page::main()
 	PageSignUp* u;
 	PageCustomer* c;
 	PageStaff* s;
+	PageWalletTransfer* f;
 	while (true)
 	{
 		switch (currentPage)
@@ -47,6 +48,13 @@ void Page::main()
 			s = new PageStaff();
 			s->main();
 			delete s;
+			break;
+
+		case Page_WelletTranfer:
+			showCur(0);
+			f = new PageWalletTransfer();
+			f->main();
+			delete f;
 			break;
 
 		/*default:
