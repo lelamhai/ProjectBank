@@ -84,6 +84,9 @@
     <ClCompile Include="page.cpp">
       <Filter>Source Files\FE\Pages</Filter>
     </ClCompile>
+    <ClCompile Include="pageCustomer.cpp">
+      <Filter>Source Files\FE\Pages</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="configApp.h">
@@ -120,6 +123,9 @@
       <Filter>Header Files\FE\Pages</Filter>
     </ClInclude>
     <ClInclude Include="PageSignUp.h">
+      <Filter>Header Files\FE\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="PageCustomer.h">
       <Filter>Header Files\FE\Pages</Filter>
     </ClInclude>
   </ItemGroup>

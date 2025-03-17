@@ -135,6 +135,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="configApp.cpp" />
     <ClCompile Include="page.cpp" />
+    <ClCompile Include="pageCustomer.cpp" />
     <ClCompile Include="pageSignIn.cpp" />
     <ClCompile Include="pageSignUp.cpp" />
     <ClCompile Include="singleton.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="mykeyboard.h" />
     <ClInclude Include="mywindows.h" />
     <ClInclude Include="Page.h" />
+    <ClInclude Include="PageCustomer.h" />
     <ClInclude Include="PageSignIn.h" />
     <ClInclude Include="PageSignUp.h" />
     <ClInclude Include="Singleton.h" />
