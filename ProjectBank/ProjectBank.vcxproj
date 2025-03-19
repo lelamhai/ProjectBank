@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="transaction.cpp" />
+    <ClCompile Include="manageAccount.cpp" />
     <ClCompile Include="basePage.cpp" />
     <ClCompile Include="color.cpp" />
     <ClCompile Include="draw.cpp" />
@@ -142,9 +144,13 @@
     <ClCompile Include="pageWalletTransfer.cpp" />
     <ClCompile Include="singleton.cpp" />
     <ClCompile Include="text.cpp" />
+    <ClCompile Include="account.cpp" />
+    <ClCompile Include="wallet.cpp" />
     <ClCompile Include="windows.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Transaction.h" />
+    <ClInclude Include="ManageAccount.h" />
     <ClInclude Include="BasePage.h" />
     <ClInclude Include="configApp.h" />
     <ClInclude Include="InputField.h" />
@@ -160,6 +166,8 @@
     <ClInclude Include="PageWalletTransfer.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="Text.h" />
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="Wallet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

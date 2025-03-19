@@ -179,10 +179,11 @@ void PageSignUp::handle()
 
 		if (currentPageSignUp == ENTER)
 		{
-			bool flag = false;
+			bool flag = true;
 			if (flag)
 			{
-
+				ManageAccount a;
+				a.SignUp();
 				return;
 			}
 			currentPageSignUp = FULLNAME;

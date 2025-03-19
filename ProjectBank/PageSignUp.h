@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include "BasePage.h"
+#include "ManageAccount.h"
 
 class PageSignUp:public BasePage
 {
