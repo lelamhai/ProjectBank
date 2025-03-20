@@ -113,12 +113,15 @@ void PageSignIn::handle()
 
 		if (currentPageLogin == ENTER)
 		{
-			bool flag = false;
-			if (flag)
+			if (listInput[0].getText() == USER_ADMIN && listInput[1].getText() == PASSWORD_ADMIN)
 			{
-
+				Singleton::getInstance()->UserID = USER_ADMIN;
+				return;
+			} else if (listInput[0].getText() != "" && listInput[1].getText() != "")
+			{
 				return;
 			}
+
 			currentPageLogin = USERNAME;
 			txtMessage.display();
 		}

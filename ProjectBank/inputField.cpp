@@ -66,6 +66,7 @@ void InputField::handleInput()
 		case ENTER:
 			keyInput = ENTER;
 			return;
+
 		default:
 			break;
 		}
@@ -73,17 +74,37 @@ void InputField::handleInput()
 		switch (key)
 		{
 		case LEFT:
+			if (cursorPosition <= 0)
+			{
+				Sleep(150);
+				continue;
+			}
+
+			cursorPosition--;
+			gotoXY(whereX() - 1, whereY());
+			Sleep(150);
 			continue;
 
 		case RIGHT:
+			if (cursorPosition >= inputString.length())
+			{
+				Sleep(150);
+				continue;
+			}
+
+			cursorPosition++;
+			gotoXY(whereX() + 1, whereY());
+			Sleep(150);
 			continue;
 
 		case UP:
 			keyInput = UP;
+			Sleep(150);
 			return;
 
 		case DOWN:
 			keyInput = DOWN;
+			Sleep(150);
 			return;
 
 		default:
@@ -160,12 +181,12 @@ void InputField::handleInput()
 				break;
 			}
 
-			if (s >= 'a' && s <= 'z' || s >= 'A' && s <= 'Z')
+			if (s >= 32 && s <= 126)
 			{
-				if (s >= 'a' && s <= 'z')
+				/*if (s >= 'a' && s <= 'z')
 				{
 					s = s - ('a' - 'A');
-				}
+				}*/
 				inputString.insert(inputString.begin() + cursorPosition, s);
 				cursorPosition++;
 				cout << s;

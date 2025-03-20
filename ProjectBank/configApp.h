@@ -11,10 +11,14 @@
 #define HEIGHT_INPUT 2
 #define LENGTH_INPUT 15
 
-// Path
-const string FILE_ACCOUNT = "Account.txt";
-const string FILE_WALLET = "Wallet.txt";
-const string FILE_TRANSACTION = "Transaction.txt";
+// File
+const string FILE_ACCOUNT = "DataAccount.json";
+const string FILE_WALLET = "DataWallet.json";
+const string FILE_TRANSACTION = "DataTransaction.json";
+
+// Admin
+const string USER_ADMIN = "admin";
+const string PASSWORD_ADMIN = "admin";
 
 void init();
 string truncateText(const string& text);

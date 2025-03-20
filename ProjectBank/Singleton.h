@@ -7,9 +7,8 @@ class Singleton
 private:
 	static Singleton* instance;
 public:
-	string ID;
+	string UserID;
 	static Singleton* getInstance();
-	void print();
 	Singleton();
 	~Singleton();
 };

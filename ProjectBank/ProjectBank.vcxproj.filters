@@ -93,7 +93,7 @@
     <ClCompile Include="pageCustomer.cpp">
       <Filter>Source Files\FE\Pages</Filter>
     </ClCompile>
-    <ClCompile Include="pageStaff.cpp">
+    <ClCompile Include="pageAdmin.cpp">
       <Filter>Source Files\FE\Pages</Filter>
     </ClCompile>
     <ClCompile Include="pageWalletTransfer.cpp">
@@ -102,14 +102,20 @@
     <ClCompile Include="manageAccount.cpp">
       <Filter>Source Files\BE</Filter>
     </ClCompile>
-    <ClCompile Include="account.cpp">
+    <ClCompile Include="accountModel.cpp">
       <Filter>Source Files\Models</Filter>
     </ClCompile>
-    <ClCompile Include="transaction.cpp">
+    <ClCompile Include="transactionModel.cpp">
       <Filter>Source Files\Models</Filter>
     </ClCompile>
-    <ClCompile Include="wallet.cpp">
+    <ClCompile Include="walletModel.cpp">
       <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="manageWallet.cpp">
+      <Filter>Source Files\BE</Filter>
+    </ClCompile>
+    <ClCompile Include="manageTransaction.cpp">
+      <Filter>Source Files\BE</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -152,7 +158,7 @@
     <ClInclude Include="PageCustomer.h">
       <Filter>Header Files\FE\Pages</Filter>
     </ClInclude>
-    <ClInclude Include="PageStaff.h">
+    <ClInclude Include="PageAdmin.h">
       <Filter>Header Files\FE\Pages</Filter>
     </ClInclude>
     <ClInclude Include="PageWalletTransfer.h">
@@ -161,14 +167,23 @@
     <ClInclude Include="ManageAccount.h">
       <Filter>Header Files\BE</Filter>
     </ClInclude>
-    <ClInclude Include="Account.h">
+    <ClInclude Include="AccountModel.h">
       <Filter>Header Files\Models</Filter>
     </ClInclude>
-    <ClInclude Include="Transaction.h">
+    <ClInclude Include="TransactionModel.h">
       <Filter>Header Files\Models</Filter>
     </ClInclude>
-    <ClInclude Include="Wallet.h">
+    <ClInclude Include="WalletModel.h">
       <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageWallet.h">
+      <Filter>Header Files\BE</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageTransaction.h">
+      <Filter>Header Files\BE</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\Systems</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

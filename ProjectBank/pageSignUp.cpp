@@ -27,7 +27,7 @@ void PageSignUp::setUI()
 		listText.push_back(Text());
 		listInput.push_back(InputField());
 
-		listText[i].setPosition(15, posY + 1);
+		listText[i].setPosition(20, posY + 1);
 
 
 		listInput[i].setPosition(30, posY);
@@ -37,13 +37,13 @@ void PageSignUp::setUI()
 		posY += 3;
 	}
 
-	listText[0].setContent("Ho Va Ten");
+	listText[0].setContent("Ho");
 	listText[0].display();
 
-	listText[1].setContent("So Dien Thoai");
+	listText[1].setContent("Ten");
 	listText[1].display();
 
-	listText[2].setContent("Dia Chi Mail");
+	listText[2].setContent("SDT");
 	listText[2].display();
 
 	listText[3].setContent("Mat Khau");
@@ -63,7 +63,7 @@ void PageSignUp::handle()
 {
 	while (true)
 	{
-		if (currentPageSignUp == FULLNAME)
+		if (currentPageSignUp == LASTNAME)
 		{
 			listInput[0].handleInput();
 
@@ -76,7 +76,7 @@ void PageSignUp::handle()
 					break;
 				}
 
-				currentPageSignUp = StateInputSignUp::TELLPHONE;
+				currentPageSignUp = StateInputSignUp::FIRSTNAME;
 				break;
 
 			case KeyState::UP:
@@ -84,7 +84,7 @@ void PageSignUp::handle()
 				break;
 
 			case KeyState::DOWN:
-				currentPageSignUp = StateInputSignUp::TELLPHONE;
+				currentPageSignUp = StateInputSignUp::FIRSTNAME;
 				break;
 
 			default:
@@ -93,7 +93,7 @@ void PageSignUp::handle()
 
 		}
 
-		if (currentPageSignUp == TELLPHONE)
+		if (currentPageSignUp == FIRSTNAME)
 		{
 			listInput[1].handleInput();
 
@@ -105,15 +105,15 @@ void PageSignUp::handle()
 					currentPageSignUp = StateInputSignUp::ENTER;
 					break;
 				}
-				currentPageSignUp = StateInputSignUp::MAIL;
+				currentPageSignUp = StateInputSignUp::NUMBERPHONE;
 				break;
 
 			case KeyState::UP:
-				currentPageSignUp = StateInputSignUp::FULLNAME;
+				currentPageSignUp = StateInputSignUp::LASTNAME;
 				break;
 
 			case KeyState::DOWN:
-				currentPageSignUp = StateInputSignUp::MAIL;
+				currentPageSignUp = StateInputSignUp::NUMBERPHONE;
 				break;
 
 			default:
@@ -121,7 +121,7 @@ void PageSignUp::handle()
 			}
 		}
 
-		if (currentPageSignUp == MAIL)
+		if (currentPageSignUp == NUMBERPHONE)
 		{
 			listInput[2].handleInput();
 
@@ -137,7 +137,7 @@ void PageSignUp::handle()
 				break;
 
 			case KeyState::UP:
-				currentPageSignUp = StateInputSignUp::TELLPHONE;
+				currentPageSignUp = StateInputSignUp::FIRSTNAME;
 				break;
 
 			case KeyState::DOWN:
@@ -161,15 +161,15 @@ void PageSignUp::handle()
 					currentPageSignUp = StateInputSignUp::ENTER;
 					break;
 				}
-				currentPageSignUp = StateInputSignUp::FULLNAME;
+				currentPageSignUp = StateInputSignUp::LASTNAME;
 				break;
 
 			case KeyState::UP:
-				currentPageSignUp = StateInputSignUp::MAIL;
+				currentPageSignUp = StateInputSignUp::NUMBERPHONE;
 				break;
 
 			case KeyState::DOWN:
-				currentPageSignUp = StateInputSignUp::FULLNAME;
+				currentPageSignUp = StateInputSignUp::LASTNAME;
 				break;
 
 			default:
@@ -179,15 +179,20 @@ void PageSignUp::handle()
 
 		if (currentPageSignUp == ENTER)
 		{
-			bool flag = true;
-			if (flag)
+			if (listInput[0].getText() != "" && listInput[1].getText() != "" && listInput[2].getText() != "")
 			{
-				ManageAccount a;
-				a.SignUp();
-				return;
+				
+				bool result = a.SignUp(listInput[0].getText(), listInput[1].getText(), listInput[2].getText(), listInput[3].getText());
+				if (result)
+				{
+
+				}
+				else
+				{
+					currentPageSignUp = FIRSTNAME;
+					txtMessage.display();
+				}
 			}
-			currentPageSignUp = FULLNAME;
-			txtMessage.display();
 		}
 	}
 }

@@ -1,4 +1,6 @@
-C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\transaction.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\transaction.obj
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\manageTransaction.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\manageTransaction.obj
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\manageWallet.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\manageWallet.obj
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\transactionModel.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\transactionModel.obj
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\manageAccount.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\manageAccount.obj
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\basePage.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\basePage.obj
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\color.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\color.obj
@@ -11,10 +13,10 @@ C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\page.cpp;C
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\pageCustomer.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\pageCustomer.obj
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\pageSignIn.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\pageSignIn.obj
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\pageSignUp.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\pageSignUp.obj
-C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\pageStaff.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\pageStaff.obj
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\pageAdmin.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\pageAdmin.obj
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\pageWalletTransfer.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\pageWalletTransfer.obj
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\singleton.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\singleton.obj
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\text.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\text.obj
-C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\account.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\account.obj
-C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\wallet.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\wallet.obj
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\accountModel.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\accountModel.obj
+C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\walletModel.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\walletModel.obj
 C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\windows.cpp;C:\Users\ADMIN\Documents\PTIT\HK4\C++\Project\ProjectBank\ProjectBank\x64\Debug\windows.obj

@@ -16,7 +16,7 @@ void Page::main()
 	PageSignIn* i;
 	PageSignUp* u;
 	PageCustomer* c;
-	PageStaff* s;
+	PageAdmin* a;
 	PageWalletTransfer* f;
 	while (true)
 	{
@@ -43,11 +43,11 @@ void Page::main()
 			delete c;
 			break;
 
-		case Page_Staff:
+		case Page_Admin:
 			showCur(0);
-			s = new PageStaff();
-			s->main();
-			delete s;
+			a = new PageAdmin();
+			a->main();
+			delete a;
 			break;
 
 		case Page_WelletTranfer:
