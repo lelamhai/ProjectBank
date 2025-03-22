@@ -1,10 +1,10 @@
 #include "AccountModel.h"
 
-int AccountModel::NextId = 0;
+int AccountModel::NextID = 0;
 
 AccountModel::AccountModel()
 {
-	UserID = NextId++;
+	UserID = NextID++;
 }
 
 AccountModel::~AccountModel()

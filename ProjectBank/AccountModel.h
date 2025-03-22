@@ -8,13 +8,13 @@ using json = nlohmann::json;
 class AccountModel
 {
 private:
-	static int NextId;
+	static int NextID;
 	int UserID;
 	string LastName;
 	string FirstName;
 	string NumberPhone;
 	string Password;
-	bool IsActive = true;
+	bool IsActive;
 
 public:
 	int getUserID();

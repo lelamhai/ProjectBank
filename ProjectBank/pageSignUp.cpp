@@ -182,9 +182,10 @@ void PageSignUp::handle()
 			if (listInput[0].getText() != "" && listInput[1].getText() != "" && listInput[2].getText() != "")
 			{
 				
-				bool result = a.SignUp(listInput[0].getText(), listInput[1].getText(), listInput[2].getText(), listInput[3].getText());
-				if (result)
+				int result = a.SignUp(listInput[0].getText(), listInput[1].getText(), listInput[2].getText(), listInput[3].getText());
+				if (result != -1)
 				{
+
 					currentPageSignUp = FIRSTNAME;
 				}
 				else

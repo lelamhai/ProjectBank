@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\AccountModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\AccountModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\accountModel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\accountModel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\pageSignIn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\pageSignIn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\PageSignIn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\PageSignIn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\PageForgotPassword.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\PageForgotPassword.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\pageForgotPassword.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\pageForgotPassword.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\ManageAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\ManageAccount.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\AccountModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\AccountModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\ManageWallet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\ManageWallet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\manageAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\manageAccount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\page.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\page.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\Page.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1DDB809F-6074-4AD8-A4D6-1F559BD8F082}|ProjectBank\\ProjectBank.vcxproj|solutionrelative:ProjectBank\\Page.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 247,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "ManageWallet.h",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\ManageWallet.h",
+              "RelativeDocumentMoniker": "ProjectBank\\ManageWallet.h",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\ManageWallet.h",
+              "RelativeToolTip": "ProjectBank\\ManageWallet.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-22T07:32:23.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "accountModel.cpp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\accountModel.cpp",
+              "RelativeDocumentMoniker": "ProjectBank\\accountModel.cpp",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\accountModel.cpp*",
+              "RelativeToolTip": "ProjectBank\\accountModel.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T04:26:26.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "manageAccount.cpp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\manageAccount.cpp",
+              "RelativeDocumentMoniker": "ProjectBank\\manageAccount.cpp",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\manageAccount.cpp",
+              "RelativeToolTip": "ProjectBank\\manageAccount.cpp",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T03:16:13.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\main.cpp",
+              "RelativeDocumentMoniker": "ProjectBank\\main.cpp",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\main.cpp",
+              "RelativeToolTip": "ProjectBank\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T02:40:38.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pageSignIn.cpp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\pageSignIn.cpp",
+              "RelativeDocumentMoniker": "ProjectBank\\pageSignIn.cpp",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\pageSignIn.cpp",
+              "RelativeToolTip": "ProjectBank\\pageSignIn.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T02:32:03.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageSignIn.h",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\PageSignIn.h",
+              "RelativeDocumentMoniker": "ProjectBank\\PageSignIn.h",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\PageSignIn.h",
+              "RelativeToolTip": "ProjectBank\\PageSignIn.h",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAEwBsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-22T02:26:56.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PageForgotPassword.h",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\PageForgotPassword.h",
+              "RelativeDocumentMoniker": "ProjectBank\\PageForgotPassword.h",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\PageForgotPassword.h",
+              "RelativeToolTip": "ProjectBank\\PageForgotPassword.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-22T02:25:37.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pageForgotPassword.cpp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\pageForgotPassword.cpp",
+              "RelativeDocumentMoniker": "ProjectBank\\pageForgotPassword.cpp",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\pageForgotPassword.cpp",
+              "RelativeToolTip": "ProjectBank\\pageForgotPassword.cpp",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAHMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T02:25:47.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ManageAccount.h",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\ManageAccount.h",
               "RelativeDocumentMoniker": "ProjectBank\\ManageAccount.h",
               "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\ManageAccount.h",
               "RelativeToolTip": "ProjectBank\\ManageAccount.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAEwBYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-22T01:36:35.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccountModel.h",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\AccountModel.h",
               "RelativeDocumentMoniker": "ProjectBank\\AccountModel.h",
               "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\AccountModel.h",
               "RelativeToolTip": "ProjectBank\\AccountModel.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAEwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-22T01:36:27.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "page.cpp",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\page.cpp",
+              "RelativeDocumentMoniker": "ProjectBank\\page.cpp",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\page.cpp",
+              "RelativeToolTip": "ProjectBank\\page.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T02:38:58.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Page.h",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\Page.h",
+              "RelativeDocumentMoniker": "ProjectBank\\Page.h",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\PTIT\\HK4\\C\u002B\u002B\\Project\\ProjectBank\\ProjectBank\\Page.h",
+              "RelativeToolTip": "ProjectBank\\Page.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-22T02:39:01.239Z",
               "EditorCaption": ""
             }
           ]

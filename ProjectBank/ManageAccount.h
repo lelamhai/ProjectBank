@@ -17,9 +17,10 @@ private:
 
 public:
 	bool LoadData();
-	bool SignUp(string last, string first, string mail, string password);
+	int SignUp(string last, string first, string mail, string password);
 	int SignIn(string user, string pass);
-	void ForgotPassword();
+	bool ForgotPassword(int id, string newPass);
+	bool SaveFile();
 	ManageAccount();
 	~ManageAccount();
 };

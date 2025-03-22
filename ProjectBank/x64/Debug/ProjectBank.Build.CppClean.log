@@ -1,6 +1,5 @@
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\vc143.pdb
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\vc143.idb
-c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\accountmodel.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\text.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\singleton.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\pagewallettransfer.obj
@@ -18,10 +17,12 @@ c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\basepage.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\manageaccount.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\transactionmodel.obj
+c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\pageforgotpassword.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\managewallet.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\managetransaction.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\windows.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\walletmodel.obj
+c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\accountmodel.obj
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\x64\debug\projectbank.exe
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\x64\debug\projectbank.pdb
 c:\users\admin\documents\ptit\hk4\c++\project\projectbank\projectbank\x64\debug\projectbank.ilk

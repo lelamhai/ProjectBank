@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="manageTransaction.cpp" />
     <ClCompile Include="manageWallet.cpp" />
+    <ClCompile Include="pageForgotPassword.cpp" />
     <ClCompile Include="transactionModel.cpp" />
     <ClCompile Include="manageAccount.cpp" />
     <ClCompile Include="basePage.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="json.hpp" />
     <ClInclude Include="ManageTransaction.h" />
     <ClInclude Include="ManageWallet.h" />
+    <ClInclude Include="PageForgotPassword.h" />
     <ClInclude Include="TransactionModel.h" />
     <ClInclude Include="ManageAccount.h" />
     <ClInclude Include="BasePage.h" />

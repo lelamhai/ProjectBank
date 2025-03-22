@@ -18,6 +18,7 @@ void Page::main()
 	PageCustomer* c;
 	PageAdmin* a;
 	PageWalletTransfer* f;
+	PageForgotPassword* fp;
 	while (true)
 	{
 		switch (currentPage)
@@ -55,6 +56,13 @@ void Page::main()
 			f = new PageWalletTransfer();
 			f->main();
 			delete f;
+			break;
+
+		case Page_ForgotPassword:
+			showCur(0);
+			fp = new PageForgotPassword();
+			fp->main();
+			delete fp;
 			break;
 
 		/*default:

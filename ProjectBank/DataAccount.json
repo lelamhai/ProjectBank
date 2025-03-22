@@ -5,8 +5,32 @@
             "IsActive": true,
             "LastName": "lelam",
             "NumberPhone": "99999",
-            "Password": "",
+            "Password": "lelamhai",
             "UserID": 0
+        },
+        {
+            "FirstName": "thao",
+            "IsActive": true,
+            "LastName": "le",
+            "NumberPhone": "7777777",
+            "Password": "123456789",
+            "UserID": 3
+        },
+        {
+            "FirstName": "vu",
+            "IsActive": true,
+            "LastName": "Dung",
+            "NumberPhone": "sdadssad",
+            "Password": "",
+            "UserID": 2
+        },
+        {
+            "FirstName": "fdsafdsa",
+            "IsActive": true,
+            "LastName": "Dungdsafsa",
+            "NumberPhone": "sdadssad",
+            "Password": "",
+            "UserID": 3
         }
     ]
 }

@@ -4,6 +4,7 @@
 #include "PageCustomer.h"
 #include "PageAdmin.h"
 #include "PageWalletTransfer.h"
+#include "PageForgotPassword.h"
 
 enum StatePage
 {
@@ -11,7 +12,8 @@ enum StatePage
 	Page_SignUp			= 1,
 	Page_Customer		= 2,
 	Page_Admin			= 3,
-	Page_WelletTranfer	= 4
+	Page_WelletTranfer	= 4,
+	Page_ForgotPassword = 5
 };
 
 class Page

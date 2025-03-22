@@ -117,6 +117,9 @@
     <ClCompile Include="manageTransaction.cpp">
       <Filter>Source Files\BE</Filter>
     </ClCompile>
+    <ClCompile Include="pageForgotPassword.cpp">
+      <Filter>Source Files\FE\Pages</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="configApp.h">
@@ -184,6 +187,9 @@
     </ClInclude>
     <ClInclude Include="json.hpp">
       <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="PageForgotPassword.h">
+      <Filter>Header Files\FE\Pages</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
