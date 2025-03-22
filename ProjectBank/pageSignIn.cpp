@@ -119,7 +119,12 @@ void PageSignIn::handle()
 				return;
 			} else if (listInput[0].getText() != "" && listInput[1].getText() != "")
 			{
-				return;
+				int userID = a.SignIn(listInput[0].getText(), listInput[1].getText());
+				if (userID != -1)
+				{
+					Singleton::getInstance()->UserID = userID;
+					return;
+				}
 			}
 
 			currentPageLogin = USERNAME;

@@ -14,6 +14,7 @@ private:
 	string FirstName;
 	string NumberPhone;
 	string Password;
+	bool IsActive = true;
 
 public:
 	int getUserID();
@@ -25,6 +26,8 @@ public:
 	void setNumberPhone(string phone);
 	string getPassword();
 	void setPassword(string pass);
+	bool getIsActive();
+	void setIsActive(bool active);
 
 	json toJson();
 	void fromJson(const json& j);

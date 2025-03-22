@@ -2,6 +2,7 @@
 
 ManageAccount::ManageAccount()
 {
+    LoadData();
 }
 
 ManageAccount::~ManageAccount()
@@ -15,9 +16,15 @@ bool ManageAccount::LoadData()
         json j;
         file >> j;
         file.close();
-        AccountModel model;
-        model.fromJson(j);
-        listAccount.push_back(model);
+        json jsonAccount = json::array();
+        jsonAccount = j["Data"];
+
+        for (int i = 0; i < jsonAccount.size(); i++)
+        {
+            AccountModel model;
+            model.fromJson(jsonAccount[i]);
+            listAccount.push_back(model);
+        }
 
         return true;
     }
@@ -34,9 +41,7 @@ bool ManageAccount::SignUp(string last, string first, string phone, string pass)
     model.setNumberPhone(phone);
     model.setPassword(pass);
     listAccount.push_back(model);
-    gotoXY(0,0);
-    cout << listAccount.size();
-    json jsonAccount = json::array();//model.toJson();
+    json jsonAccount = json::array();
 
     for (int i = 0; i < listAccount.size(); i++)
     {
@@ -56,10 +61,16 @@ bool ManageAccount::SignUp(string last, string first, string phone, string pass)
     }
 }
 
-bool ManageAccount::SignIn(string user, string pass)
+int ManageAccount::SignIn(string user, string pass)
 {
-
-    return true;
+    for (int i = 0; i < listAccount.size(); i++)
+    {
+        if (listAccount[i].getNumberPhone() == user && listAccount[i].getPassword() == pass)
+        {
+            return listAccount[i].getUserID();
+        }
+    }
+    return -1;
 }
 
 void ManageAccount::ForgotPassword()

@@ -1,18 +1,12 @@
 {
     "Data": [
         {
-            "FirstName": "dsfafdsa",
-            "LastName": "dsfafdsa",
-            "NumberPhone": "dsfafdsa",
+            "FirstName": "hai",
+            "IsActive": true,
+            "LastName": "lelam",
+            "NumberPhone": "99999",
             "Password": "",
             "UserID": 0
-        },
-        {
-            "FirstName": "aaaaaa",
-            "LastName": "dsfafdsa",
-            "NumberPhone": "dsfafdsa",
-            "Password": "",
-            "UserID": 1
         }
     ]
 }

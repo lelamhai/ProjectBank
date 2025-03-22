@@ -185,7 +185,7 @@ void PageSignUp::handle()
 				bool result = a.SignUp(listInput[0].getText(), listInput[1].getText(), listInput[2].getText(), listInput[3].getText());
 				if (result)
 				{
-
+					currentPageSignUp = FIRSTNAME;
 				}
 				else
 				{

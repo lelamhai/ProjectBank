@@ -56,13 +56,24 @@ void AccountModel::setPassword(string pass)
 	Password = pass;
 }
 
+bool AccountModel::getIsActive()
+{
+	return IsActive;
+}
+
+void AccountModel::setIsActive(bool active)
+{
+	IsActive = active;
+}
+
 json AccountModel::toJson() {
 	return {
 		{"UserID", UserID},
 		{"LastName", LastName},
 		{"FirstName", FirstName},
 		{"NumberPhone", NumberPhone},
-		{"Password", Password}
+		{"Password", Password},
+		{"IsActive", IsActive}
 	};
 };
 
@@ -72,4 +83,5 @@ void AccountModel::fromJson(const json& j) {
 	FirstName = j.at("FirstName").get<string>();
 	NumberPhone = j.at("NumberPhone").get<string>();
 	Password = j.at("Password").get<string>();
+	IsActive = j.at("IsActive").get<bool>();
 }
